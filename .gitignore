@@ -16,6 +16,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+*.ico
 
 # Images
 *.png
@@ -26,3 +27,18 @@ $RECYCLE.BIN/
 
 # BlueGryphon Files
 *.bak
+
+# other files to ignore
+*.DS_Store
+
+# Office/PDF
+*.xls
+*.xlsx
+*.doc
+*.docx
+*.pdf
+
+#zipped
+*.zip
+*.7z
+
