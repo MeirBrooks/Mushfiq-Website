@@ -38,7 +38,9 @@ $RECYCLE.BIN/
 *.docx
 *.pdf
 
-#zipped
+# zipped
 *.zip
 *.7z
 
+# temp files
+*~$
