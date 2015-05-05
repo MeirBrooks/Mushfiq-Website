@@ -43,4 +43,4 @@ $RECYCLE.BIN/
 *.7z
 
 # temp files
-*~$
+*~$.*
