@@ -1,7 +1,7 @@
 **********************README FOR MUSHFIQ'S WEBSITE************************
 **************************************************************************
 
-Last update: 1/28/2014 by Derek Wolfson
+Last update: 5/19/2015 by Derek Wolfson
 
 
 ** 0 - INDEX*******************************
@@ -65,6 +65,20 @@ BlueGriffon was the software used to created this webpage.  It is a nice What-Yo
 I recommend to continue using BlueGriffon to keep this webpage up to date.  Dreamweaver would be a suitable alternative, however it costs some serious money.
 
 NOTE: using Bluegriffon creates these strange .bak files.  I'm not certain what they do but you can delete them.  If you do not delete them they cause no harm.  It is a bit of a pain, but oh well, that is what you get sometimes with freeware. 
+
+*********************************
+*   1.3 - Page Header		*
+*********************************
+The page header is contained in resources/common/header.txt.  This file contains a javascript document.write() command, which is subsequently used in every page to insert the header HTML at the top of the page body.  
+
+The code: 
+  <script language="javascript" type="text/javascript" 
+  src="http://faculty.som.yale.edu/mushfiqmobarak/resources/common/header.txt"></script> 
+is what includes this header on the webpages.
+ 
+To change the header globally, simply change header.txt.
+ 
+NOTE: header.txt cannot contain any line breaks, that is why it looks ugly.
 
 
 *************2 - INDIVIDUAL PAGES************
