@@ -1,7 +1,7 @@
 **********************README FOR MUSHFIQ'S WEBSITE************************
 **************************************************************************
 
-Last update: 5/19/2015 by Derek Wolfson
+Last update: 5/20/2015 by Derek Wolfson
 
 
 ** 0 - INDEX*******************************
@@ -37,30 +37,34 @@ Mushfiq's new website was built in January 2014, using a software called BlueGri
 2 - The navigation bar, where you find the links to the various pages
 3 - The body
 
-This is the basic setup for this webpage and it makes for a nice browsing experience on computers, tablets and smartphones.  
-
-
+This is the basic setup for this webpage and it makes for a nice browsing experience on computers, tablets and smartphones.
 
 *********************************
-*   1.1 - Recommended Software	*
+*   1.1 - Global Settings	*
 *********************************
 
-The global settings are as follows:
+*1.1.1 - Alignment
+Also, all paragraph text should be "justified" alignment and all bullet/numbered text should be "left" alignment.
 
-Global Font: Georgia
-Global Font Size: 10pt 
-Body Text Color: Black
-Alignment: Justify 
-Section Header Text Color: Midnight Blue [HEX:#023165, RGB(2,49,101)]
-Yale SOM Header Image: found at "../resource/images/banner.png"
+*1.1.2 - Fonts/Styles/Classes
 
+The global settings for text are contained in the CSS file:
+J:\resources\css\common.css
 
+The three text classes that we use on this site are:
+Heading
+Subheading
+Bodytext
+
+Notes on CSS:
+Very Basic: CSS lets us store styles and classes.
+A little less basic: http://www.w3schools.com/css/css_intro.asp
 
 *********************************
-*   1.2 - Global Settings	*
+*   1.2 - Recommended Software	*
 *********************************
 
-BlueGriffon was the software used to created this webpage.  It is a nice What-You-See-Is-What-You-Get HTML editor that takes advantage of HTML5 and CSS3.  If that means nothing to you, that is fine, however it is important to note some of the styles are specific to CSS3.  For example, the dropshadow found on every page is part of CSS3.  
+BlueGriffon was the software used to created this webpage.  It is a nice What-You-See-Is-What-You-Get HTML editor that takes advantage of HTML5 and CSS3.  If that means nothing to you, that is fine, however it is important to note some of the styles are specific to CSS3.  For example, the dropshadow found on every page is part of CSS3.
 
 I recommend to continue using BlueGriffon to keep this webpage up to date.  Dreamweaver would be a suitable alternative, however it costs some serious money.
 
@@ -142,16 +146,12 @@ For example, the files for India Rainfall are found at:
 
 Keeping new projects in these sorts of branches to ensure that the webpage folders do not get messy.  Once they begin to get out of hand they are very difficult to tidy up.
 
-When adding a new project there is a template.html file found at 
-"../ongoingprojects/template.html"
-
-This contains a working example of a project page.  Just plug in the necessary information and be sure to change the page title by opening your new project page in bluegriffon and navigating to:
+If you need to create a new project page, just copy an existing one as a template. Just plug in the necessary information and be sure to change the page title by opening your new project page in bluegriffon and navigating to:
 
 Format >  Page Properties..
-and Changing Title from "Template | Ahmed Mushfiq Mobarak" to "Project Name | Ahmed Mushfiq Mobarak" 
+and Changing Title from "Already Existing Information | Ahmed Mushfiq Mobarak" to "Project Name | Ahmed Mushfiq Mobarak" 
 
 (Obviously, replace Project Name with the project's name.)
-
 
 
 *********************************
@@ -189,17 +189,14 @@ For example, the files for the 2011 trip to Brazil are found at:
 
 Again, please maintain this structure for tidiness (sp?).
 
-To add a new international experience page use the template found at: 
-"../courses/intlexp/template.html"
+To add a new international experience page use an existing one as a template.
 
 Just plug in your information and create a new folder for the files necessary for that page in "../courses/intlexp/resources/XXXX" where XXXX is the four digit year.  Be sure to change the page title by opening your new project page in bluegriffon and navigating to:
 
 Format >  Page Properties..
-and Changing Title from "Template | Ahmed Mushfiq Mobarak" to "Country Year IE | Ahmed Mushfiq Mobarak" 
+and Changing Title from "Already Existing Information | Ahmed Mushfiq Mobarak" to "Country Year IE | Ahmed Mushfiq Mobarak" 
 
 (Obviously, replace -Country- and -Year- with the necessary information for the new page.)
-
-
 
 
 *********************************
@@ -275,12 +272,3 @@ This page contains Mushfiq's contact information.  I imagine he'll be in Evans H
 However, his Administrative Assistant may change.
 
 Try to keep this updated.
-
-
-
-
-
-
-
-
-
