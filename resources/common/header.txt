@@ -22,6 +22,8 @@ document.write(
 + '<a class="new_link" href="http://faculty.som.yale.edu/mushfiqmobarak/research.html">Research</a> &nbsp;|&nbsp;' 
 //PROJECTS
 + '<a class="new_link" href="http://faculty.som.yale.edu/mushfiqmobarak/ongoing.html">Projects</a> &nbsp;|&nbsp;'
+//DATA
++ '<a class="new_link" href="http://faculty.som.yale.edu/mushfiqmobarak/data.html">Data</a> &nbsp;|&nbsp;' 
 //TEACHING
 + '<a class="new_link" href="http://faculty.som.yale.edu/mushfiqmobarak/teaching.html">Teaching</a> &nbsp;|&nbsp;'
 //AFFILIATIONS
