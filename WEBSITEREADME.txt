@@ -50,6 +50,7 @@ Also, all paragraph text should be "justified" alignment and all bullet/numbered
 
 The global settings for text are contained in the CSS file:
 J:\resources\css\common.css
+(*** Make sure his network drive to be located at J:, to be managed as a Github repository *** - added by Seungmin Lee, July 31 2015)
 
 The three text classes that we use on this site are:
 Heading
